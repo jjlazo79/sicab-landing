@@ -1,0 +1,30 @@
+{
+	"name": "sicab",
+	"version": "1.0.0",
+	"description": "Landing page to SICAB streaming videos",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "browser-sync start --server --files *.css, *.html",
+		"scss": "node-sass -watch --output-style expanded src\\scss\\main.scss > src\\scss\\style.css"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jjlazo79/sicab-landing.git"
+	},
+	"keywords": [
+		"html",
+		"css"
+	],
+	"author": "Jose J. Lazo León <jjlazo79@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/jjlazo79/sicab-landing/issues"
+	},
+	"homepage": "https://github.com/jjlazo79/sicab-landing#readme",
+	"devDependencies": {
+		"browser-sync": "^2.26.3",
+		"node-sass": "^4.14.1",
+		"sass-basis": "^12.0.1"
+	}
+}
