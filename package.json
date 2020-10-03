@@ -5,8 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "browser-sync start --server --files *.css, *.html",
-		"scss": "node-sass -watch --output-style expanded src\\scss\\main.scss > src\\scss\\style.css"
+		"start": "browser-sync start --server --files *.css, *.html"
 	},
 	"repository": {
 		"type": "git",
@@ -23,8 +22,6 @@
 	},
 	"homepage": "https://github.com/jjlazo79/sicab-landing#readme",
 	"devDependencies": {
-		"browser-sync": "^2.26.3",
-		"node-sass": "^4.14.1",
-		"sass-basis": "^12.0.1"
+		"browser-sync": "^2.26.3"
 	}
 }
